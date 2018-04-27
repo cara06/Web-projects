@@ -1,0 +1,122 @@
+
+#welcome
+{ width: 285px;
+  float: left;
+  height: 30px;
+  padding: 5px 0 20px 80px;
+  margin: 0 auto;
+  background: transparent;} 
+  
+#welcome H1
+{ font: normal 200% times, Helvetica, sans-serif;
+  color: #FFF;}
+  
+#site_content
+{ width: 1147px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+  background: #fff;
+  -webkit-box-shadow: inset 5px 5px 30px 5px #fff;
+  -moz-box-shadow: inset 5px 5px 30px 5px #535353;
+  box-shadow: inset 5px 5px 30px 5px #fff;
+  border-radius: 0px 0px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;} 
+  
+#image_container  
+{ width: 1000px;}
+
+#text_content
+{ float: right;
+  width: 600px;
+  padding: 0; 
+  margin: 0 20px 0 20px;}
+  
+.static_image
+{ float: left;
+  width: 470px;
+  height: 500px;
+  margin: 0 0 20px 20px; 
+z-index: 5;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 280px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 2px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings input[type="checkbox"]
+{ padding: 2px 0; 
+  width: 15px; 
+  font: 100% arial; 
+  border: 0; 
+  background: #FFF; 
+  color: #47433F;
+  margin: 28px 0;}
+
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 206px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #5082BD; 
+  color: #FFF;} 
+  
+  @media screen and (max-width:1000px){
+.portfolio__item{width:170px;height:170px;margin:0 1.5% 35px}
+.team__member{width:190px;margin:0 20px 30px}}
+
+@media screen and (max-width:800px){
+.contact__form{max-width:50%;margin:0 2% 0 8%}
+.contact__form-input{width:100%}
+.contact__form-tarea{width:100%}
+.contact__card{width:40%}
+.page-header__logo{margin:25px 0 0 10px}
+.page-header__nav{margin:30px 10px 0 0}
+.portfolio__item{width:190px;height:190px;margin:0 5% 35px}
+.team__member{width:180px;margin:0 10px 30px}}
+
+@media screen and (max-width:640px){
+.contact{padding:50px 10px}
+.contact__form{float:none;max-width:90%;margin:0 auto 50px}
+.contact__card{display:block;width:230px;margin:20px auto}
+.contact__card-title{text-align:center}
+.page-header__logo h1{display:none}
+.page-header__logo span{display:none}
+.page-header__nav li{margin-left:0}
+.portfolio{padding:50px 10px}
+.portfolio__filter li{margin:0 5px}
+.team{padding:55px 10px}
+.team__member{display:block;width:260px;margin:0 auto 30px}
+.team__member-info{height:auto}
+.team__member-descr{display:none}
+.team__member-soc{width:260px;top:220px;margin-left:-130px}}
+
+@media screen and (max-width:480px){
+.contact__form-submit{float:none;margin:0 auto}
+.page-header{min-height:50px}
+.page-header__logo{display:none}
+.page-header__nav{float:none;margin:10px auto;text-align:center}
+.page-header__nav li{margin-left:0}
+.page-footer{padding:0 10px 30px;text-align:center}
+#site_content{width:480px}
+.page-footer__copyright{margin:35px auto 0}
+.page-footer__gotop{float:none;width:100%;margin:20px auto 0}
+.portfolio__filter li{display:block}}
