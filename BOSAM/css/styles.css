@@ -338,25 +338,13 @@ ul img {
 
 @media screen and (max-width:480px){
 .contact__form-submit{float:none;margin:0 auto}
-#site_content{width:480px}
-.slideshow{height:280px;float:right; padding-bottom:100px;margin: 10px 10px 10px 10px; width:470px;}
-.sidebar_container{ margin: 0px 10px 0 50px;width: 300px;}
-.sidebar{ float:left; width: 300px;}
+#site_content{width:470px}
+.slideshow{height:300px;float:right; padding-bottom:100px;margin: 90px 0px 10px 10px; width:470px;}
+.sidebar_container{ margin: 0px 10px 0 0px;width: 400px;}
+.sidebar{ float:left; width: 400px;}
 .sidebar_item{ font: normal 95% georgia, Helvetica, sans-serif;width: 300px;}
-
-.sidebar h2
-{ padding: 5px 0 0 5px;
-  font: normal 120% times new roman, Helvetica, sans-serif;
-  height: 25px;
-  width:300px;
-  text-shadow: 0px -1px 1px #000;
-  color: #fff;
-  background: #008080;
-  background: -moz-linear-gradient( #008080,#008080);
-  background: -o-linear-gradient( 	#008080, #1E90FF);
-  background: -webkit-linear-gradient( #008080, #1E90FF);
-  box-shadow: rgba(0, 0, 0, 0.5) 1px 0px 5px;}  
-
+.sidebar h2{ padding: 5px 0 0 5px;font: normal 120% times new roman, Helvetica, sans-serif;height: 25px;width:300px;}
+ul.slideshow {width: 470px; height: 300px;}
 
 .page-header__logo{display:none}
 .page-header__nav{float:none;margin:10px auto;text-align:center}
