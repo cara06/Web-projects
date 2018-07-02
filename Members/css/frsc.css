@@ -58,15 +58,15 @@ ul#saturday li a.current,ul#saturday li a.current:hover{
 .header
 {  
     background-color: white;
-    height:16.5em;
+    height:12.5em;
     margin-top:0px;
     margin-bottom:-1.2em;
 }
 .inputa{height: 29px; border-width: thin; border-color: black;} 
 .headtext
 {
-    padding:70px 0 0 0;
-    font-size:205%;
+    padding:20px 0 0 0;
+    font-size:175%;
     color:#191970;
     line-height:1.5em;
     letter-spacing:0.5px;
