@@ -86,19 +86,3 @@ body.sticky-header header h1 {
   transform: scale(0, 0);
 }
 
-
-
-@media screen and (max-width:640px){
-
-header{width:100%;}
-.headtext{font-size:22px;line-height:20px;width:300px;}}
-
-@media screen and (max-width:480px){
-header{ width:470px;}
-.headtext{font-size:22px;line-height:20px;width:300px;}
-}
-
-@media screen and (max-width:360px){
-header{height:250px; max-width:400px;}
-.headtext{font-size:22px;line-height:20px;width:200px;}
-}
