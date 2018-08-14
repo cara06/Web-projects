@@ -1,151 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<title>Contact</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Unicat project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/contact.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+</head>
+<body>
 
-  <head>
+<div class="super_container">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<!-- Header -->
 
-    <title>BOSAM</title>
+	<header class="header">
+			
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li><div class="question">Have any questions?</div></li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<div>08131143315</div>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<div>bosam2013@gmail.com</div>
+									</li>
+								</ul>
+								<div class="top_bar_login ml-auto">
+									<div class="login_button"><a href="#">Register or Login</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo_container">
+								<a href="#">
+									<div class="logo_text">BOS<span>AM</span></div>
+								</a>
+							</div>
+							<nav class="main_nav_contaner ml-auto">
+								<ul class="main_nav">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="courses.html">Stories</a></li>
+									<li><a href="blog.html">News</a></li>
+									<li><a href="#">Page</a></li>
+									<li class="active"><a href="contact.html">Contact</a></li>
+								</ul>
+								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
 
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
+								<!-- Hamburger -->
+
+								<div class="shopping_cart"><i class="fa fa-user" aria-hidden="true"></i></div>
+								<div class="hamburger menu_mm">
+									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+								</div>
+							</nav>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Search Panel -->
+		<div class="header_search_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+							<form action="#" class="header_search_form">
+								<input type="search" class="search_input" placeholder="Search" required="required">
+								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>			
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="search">
+			<form action="#" class="header_search_form menu_mm">
+				<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+				<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+					<i class="fa fa-search menu_mm" aria-hidden="true"></i>
+				</button>
+			</form>
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">Home</a></li>
+				<li class="menu_mm"><a href="about.html">About</a></li>
+				<li class="menu_mm"><a href="courses.html">Stories</a></li>
+				<li class="menu_mm"><a href="blog.html">News</a></li>
+				<li class="menu_mm"><a href="#">Page</a></li>
+				<li class="menu_mm"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
 	
-	<link rel="stylesheet" type="text/css" href="css/frsc.css"/>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/menu.css" />
-	<script type="text/javascript" src="js/menu.js"></script>
-  </head>
-    
-	<!-- Navigation -->
-<header>
- <div class="header">
-                <img id="head-img" style="margin:55px 0px 0px 100px;float:left;" width="160" height="140" src="images/baptistlogo.jpg" alt="School logo"/>
-                <img id="head-img2"style="margin:55px 100px 0px 20px;float:right;" src="images/bosam.jpg" width="160" height="140" alt="Bosam Logo"/>
-                <h3 class="headtext"> &nbsp;<b>Baptist Old Students Association Marke</b> </h3>
-                <h5 style="color:#A52A2A;text-align:right;margin:0 0px 0px 0px; font-size:22px; font-face:Cataneo BT"><i>...Unity and Assistance</i></h5>
-             </div>
-  <nav>
-    <a href="index.html" style="text-decoration:none" >Home</a>
-    <a href="about.html" style="text-decoration:none">About Bosam</a>
-	<a href="membership.html" style="text-decoration:none" >Membership</a>
-    <a href="dues.html" style="text-decoration:none" >Dues</a>
-   <a href="gallery2.html" style="text-decoration:none" >Gallery</a>
-    <a href="contact.html" style="text-decoration:none" class="current">Contact</a>
-	 <a href="news.html" style="text-decoration:none">News</a>
-  </nav>
-</header>
+	<!-- Home -->
 
-  <!-- Page Content -->
-    <div class="container">
+	<div class="home">
+		<div class="breadcrumbs_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>Contact</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>			
+	</div>
 
-      <!-- Page Heading/Breadcrumbs -->
+	<!-- Contact -->
 
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Contact</li>
-      </ol>
+	<div class="contact">
+		
+		<!-- Contact Map -->
 
-      <!-- Content Row -->
-      <div class="row">
-        <!-- Map Column -->
-        <div class="col-lg-8 mb-4">
-          <!-- Embedded Google Map -->
-          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3942.4267159013534!2d8.005514370200721!3d8.839803260727033!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1522458524898"></iframe>
-        </div>
-        <!-- Contact Details Column -->
-        <div class="col-lg-4 mb-4">
-          <h3>Contact Details</h3>
-          <p>
-            Baptist High School, Marke
-            <br>Nasarawa State- Nigeria
-            <br>
-          </p>
-          <p>
-            <abbr title="Phone">Tel:</abbr>: 08100000000
-          </p>
-          <p>
-            <abbr title="Email">Email</abbr>:
-            <a href="mailto:bosamng@gmail.com">bosamng@gmail.com
-            </a>
-          </p>
-		   <p>
-            <abbr title="Facebook">Facebook:</abbr>: Baptist Old Students Association Marke
-          </p>
-          <p>
-            <abbr title="Hours">Open</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
+		<div class="contact_map">
 
-      <!-- Contact Form -->
-      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-      <div class="row">
-        <div class="col-lg-8 mb-4">
-          <h3>Send us a Message</h3>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Full Name:</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                <p class="help-block"></p>
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Phone Number:</label>
-                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Email Address:</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Message:</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-              </div>
-            </div>
-            <div id="success"></div>
-            <!-- For success/fail messages -->
-            <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
-          </form>
-        </div>
+			<!-- Google Map -->
+			
+			<div class="map">
+				<div id="google_map" class="google_map">
+					<div class="map_container">
+						<div id="map"></div>
+					</div>
+				</div>
+			</div>
 
-      </div>
-      <!-- /.row -->
+		</div>
 
-    </div>
-    <!-- /.container -->
+		<!-- Contact Info -->
 
-<!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; BOSAM 2018</p>
-		<p class="m-0 text-center text-white">Join us on &nbsp <a href="https://facebook.com"> Facebook</a></p>
-      </div>
-    </footer>
+		<div class="contact_info_container">
+			<div class="container">
+				<div class="row">
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="js/jquery/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+					<!-- Contact Form -->
+					<div class="col-lg-6">
+						<div class="contact_form">
+							<div class="contact_info_title">Contact Form</div>
+							<form action="#" class="comment_form">
+								<div>
+									<div class="form_title">Name</div>
+									<input type="text" class="comment_input" required="required">
+								</div>
+								<div>
+									<div class="form_title">Email</div>
+									<input type="text" class="comment_input" required="required">
+								</div>
+								<div>
+									<div class="form_title">Message</div>
+									<textarea class="comment_input comment_textarea" required="required"></textarea>
+								</div>
+								<div>
+									<button type="submit" class="comment_button trans_200">submit now</button>
+								</div>
+							</form>
+						</div>
+					</div>
 
-    <!-- Contact form JavaScript -->
-    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+					<!-- Contact Info -->
+					<div class="col-lg-6">
+						<div class="contact_info">
+							<div class="contact_info_title">Contact Info</div>
+							<div class="contact_info_text">
+								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a distribution of letters.</p>
+							</div>
+							<div class="contact_info_location">
+								<div class="contact_info_location_title">Baptist High School, Marke</div>
+								<ul class="location_list">
+									<li>Along Keffi-Akwanga Road, Nasarawa state</li>
+									<li>08100000000</li>
+									<li>bosam2013@gmail.com</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  </body>
+	<!-- Newsletter -->
 
+	<div class="newsletter">
+		<div class="newsletter_background" style="background-image:url(images/newsletter_background.jpg)"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
+
+						<!-- Newsletter Content -->
+						<div class="newsletter_content text-lg-left text-center">
+							<div class="newsletter_title">sign up for news and offers</div>
+							<div class="newsletter_subtitle">Subcribe to lastest smartphones news & great deals we offer</div>
+						</div>
+
+						<!-- Newsletter Form -->
+						<div class="newsletter_form_container ml-lg-auto">
+							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
+								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
+								<button type="submit" class="newsletter_button">subscribe</button>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_background" style="background-image:url(images/footer_background.png)"></div>
+		<div class="container">
+			<div class="row footer_row">
+				<div class="col">
+					<div class="footer_content">
+						<div class="row">
+
+							<div class="col-lg-3 footer_col">
+					
+								<!-- Footer About -->
+								<div class="footer_section footer_about">
+									<div class="footer_logo_container">
+										<a href="#">
+											<div class="footer_logo_text">BOS<span>AM</span></div>
+										</a>
+									</div>
+									<div class="footer_about_text">
+										<p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
+									</div>
+									<div class="footer_social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="col-lg-3 footer_col">
+					
+								<!-- Footer Contact -->
+								<div class="footer_section footer_contact">
+									<div class="footer_title">Contact Us</div>
+									<div class="footer_contact_info">
+									<ul>
+											<li>Email: Bosam2013@gmail.com</li>
+											<li>Phone:  08131143315</li>
+											<li>Baptist High School, Marke</li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="col-lg-3 footer_col">
+								
+							</div>
+
+							<div class="col-lg-3 footer_col clearfix">
+					
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row copyright_row">
+				<div class="col">
+					<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+						<div class="cr_text">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> &nbsp | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://twitter.com/techhajiya" target="_blank">TechHajiya</a></div>
+					</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="js/about.js"></script>
+</body>
 </html>
