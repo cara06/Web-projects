@@ -1,0 +1,656 @@
+<?php 
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BOSAM</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Baptist Old Students Association, Marke">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+			
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li><div class="question">Have any questions?</div></li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<div>08100000000</div>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<div>Bosam2013@gmail.com</div>
+									</li>
+								</ul>
+								<div class="top_bar_login ml-auto">
+									<div class="login_button"><a href="join.php">Join Us</a></div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
+
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo_container">
+								<a href="index.html">
+									<div class="logo_text">BOS<span>AM</span></div>
+								</a>
+							</div>
+							<nav class="main_nav_contaner ml-auto">
+								<ul class="main_nav">
+									<li class="active"><a href="index.php">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="courses.html">Stories</a></li>
+									<li><a href="blog.html">News</a></li>
+									<li><a href="members.php">Members</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+								<!-- Hamburger -->
+
+								<div class="shopping_cart"><i class="fa fa-user" aria-hidden="true"></i></div>
+								<div class="hamburger menu_mm">
+									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+								</div>
+							</nav>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Search Panel -->
+		<div class="header_search_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+							<form action="#" class="header_search_form">
+								<input type="search" class="search_input" placeholder="Search" required="required">
+								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>			
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="search">
+			<form action="#" class="header_search_form menu_mm">
+				<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+				<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+					<i class="fa fa-search menu_mm" aria-hidden="true"></i>
+				</button>
+			</form>
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.php">Home</a></li>
+				<li class="menu_mm"><a href="about.html">About</a></li>
+				<li class="menu_mm"><a href="courses.html">Stories</a></li>
+				<li class="menu_mm"><a href="blog.html">News</a></li>
+				<li class="menu_mm"><a href="members.php">Members</a></li>
+				<li class="menu_mm"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_slider_container">
+			
+			<!-- Home Slider -->
+			<div class="owl-carousel owl-theme home_slider">
+				
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/baptist2.jpg)"></div>
+					<div class="home_slider_content">
+						<div class="container">
+							<div class="row">
+								<div class="col text-center">
+									<div class="home_slider_title">.</div>
+									<div class="home_slider_subtitle"style="color:white">GREAT BOSAM!</div>
+									<div class="home_slider_form_container">
+										
+											
+				<a href="join.php"><button type="submit" class="home_search_button"style="width:200px;background-color:#191970;border:solid 1px white;">Join Us</button></a>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/bos.jpg)"></div>
+					<div class="home_slider_content">
+						<div class="container">
+							<div class="row">
+								<div class="col text-center">
+									<div class="home_slider_title">.</div>
+									<div class="home_slider_subtitle"style="color:white">WE ASSIST ONE ANOTHER...</div>
+									<div class="home_slider_form_container">
+										
+										
+											<a href="courses.html"><button type="submit" class="home_search_button" style="background-color:#191970; width:200px;border:solid 1px white;">Our Stories</button></a>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/bos2.jpg)"></div>
+					<div class="home_slider_content">
+						<div class="container">
+							<div class="row">
+								<div class="col text-center">
+									<div class="home_slider_title"></div>
+									<div class="home_slider_subtitle" style="color:white">WE ARE UNITED!</div>
+									<div class="home_slider_form_container">	
+											<button type="submit" class="home_search_button"style="background-color:#191970;border:solid 1px white;">SEE EVERYONE</button>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Home Slider Nav -->
+
+		<div class="home_slider_nav home_slider_prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+		<div class="home_slider_nav home_slider_next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+	</div>
+
+
+	<!-- Popular Courses -->
+
+	<div class="courses">
+		<div class="section_background parallax-window" data-parallax="scroll" data-image-src="images/courses_background.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<h2 class="section_title">Our Alumni's Stories</h2>
+						<div class="section_subtitle"><p>Our Great Alumni have life experiences to share. Read these inspiring stories from them.</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="row courses_row">
+				
+				<!-- Course -->
+				<div class="col-lg-4 course_col">
+					<div class="course">
+						<div class="course_image"><img src="images/wan2.jpg" alt=""></div>
+						<div class="course_body">
+							<h3 class="course_title"><a href="course.html">Life After High School</a></h3>
+							<div class="course_teacher">Mr. Raymond Wanche</div>
+							<div class="course_text">
+								<p>Graduating from High school has been...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Course -->
+				<div class="col-lg-4 course_col">
+					<div class="course">
+						<div class="course_image"><img src="images/geo2.jpg" alt=""></div>
+						<div class="course_body">
+							<h3 class="course_title"><a href="course.html">My NYSC Chronicles</a></h3>
+							<div class="course_teacher">George Maigari</div>
+							<div class="course_text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Course -->
+				<div class="col-lg-4 course_col">
+					<div class="course">
+						<div class="course_image"><img src="images/nurse.jpg" alt=""></div>
+						<div class="course_body">
+							<h3 class="course_title"><a href="course.html">On Being a Nurse</a></h3>
+							<div class="course_teacher">Miss Wazi Yunana</div>
+							<div class="course_text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="courses_button trans_200"><a href="courses.html">View all stories</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Counter -->
+
+	<div class="counter">
+		<div class="counter_background" style="background-image:url(images/counter_background.jpg)"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="counter_content">
+						<h2 class="counter_title" style="text-align:center">Join Us</h2>
+						<div class="counter_text"><p>The BOSAM Constitution spells out the conditions for membership of the Association as follows:
+						<ul style="text-align:justify">
+							<li> 1. Any student who enrolled at the College and completed the prescribed certificate courses or spent at least one academic session shall 
+							be eligible for membership of the Association.</li>
+							<li> 2. Any person, not being an Old Student of the College, who has shown sufficient interest in the affairs of the College and is adjudged to be of 
+							unimpeachable moral character, may be considered by the Executive Committee for admission as an Honorary Member of the Association.</li>
+							</ul></p>
+							
+							<p>If you have satisfied the above conditions, please fill the form to become a member.</p></div>
+
+						<!-- Milestones -->
+
+						<div class="milestones d-flex flex-md-row flex-column align-items-center justify-content-between">
+							
+							<!-- Milestone -->
+							<div class="milestone">
+								<div class="milestone_counter" data-end-value="5">0</div>
+								<div class="milestone_text">years of existence</div>
+							</div>
+
+							<!-- Milestone -->
+							<div class="milestone">
+								<div class="milestone_counter" data-end-value="200" data-sign-after="+" >0</div>
+								<div class="milestone_text">members</div>
+							</div>
+
+							<!-- Milestone -->
+							<div class="milestone">
+								<div class="milestone_counter" data-end-value="20" data-sign-after="+">0</div>
+								<div class="milestone_text">excos</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+<style>
+
+</style>
+			<div class="counter_form">
+				<div class="row fill_height">
+					<div class="col fill_height">
+						<form class="counter_form_content d-flex flex-column align-items-center justify-content-center" method="POST" action="action.php" enctype="multipart/form-data">
+							<div class="counter_form_title">Data form</div>
+							<div class="image-upload"><label align="right">Upload Your Image:</label>                         
+                            <input type="file" name="image" id="profile-img" required/><br>
+                                    <img src="" id="profile-img-tag" width="120px" height="120px" align="" /></div>
+							<script type="text/javascript">
+                                        function readURL(input) {
+                                            if (input.files && input.files[0]) {
+                                                var reader = new FileReader();
+                                                
+                                                reader.onload = function (e) {
+                                                    $('#profile-img-tag').attr('src', e.target.result);
+                                                }
+                                                reader.readAsDataURL(input.files[0]);
+                                            }
+                                        }
+                                        $("#profile-img").change(function(){
+                                            readURL(this);
+                                        });
+                                    </script><br>
+							<input type="text" name="name" class="counter_input" placeholder="Your Full Name:" required="required">
+							<input type="text" name="phone" class="counter_input" placeholder="Phone Number:" required="required">
+							<select name="grad" id="counter_select" class="counter_input counter_options">
+								<option>Year of Graduation</option>
+								<option value="2020">2020</option>
+								<option value="2019">2019</option>
+								<option value="2018">2018</option>
+								<option value="2017">2017</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								<option value="2014">2014</option>
+								<option value="2013">2013</option>
+								<option value="2012">2012</option>
+								<option value="2011">2011</option>
+							</select>
+							<textarea class="counter_input counter_text_input" name="address" placeholder="Address:" required="required"></textarea>
+							<button type="submit" name="register" value="submit" class="counter_form_button">submit now</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Events -->
+
+	<div class="events">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<h2 class="section_title">Upcoming events</h2>
+						<div class="section_subtitle"><p></p></div>
+					</div>
+				</div>
+			</div>
+			<div class="row events_row">
+
+				<!-- Event -->
+				<div class="col-lg-4 event_col">
+					<div class="event event_left">
+						<div class="event_image"><img src="images/p6.jpg" alt=""></div>
+						<div class="event_body d-flex flex-row align-items-start justify-content-start">
+							<div class="event_date">
+								<div class="d-flex flex-column align-items-center justify-content-center trans_200">
+									<div class="event_day trans_200">08</div>
+									<div class="event_month trans_200">Aug</div>
+								</div>
+							</div>
+							<div class="event_content">
+								<div class="event_title"><a href="agm.html">BOSAM ANNUAL GENERAL MEETING</a></div>
+								<div class="event_info_container">
+									<div class="event_info"><i class="fa fa-clock-o" aria-hidden="true"></i><span>10.00AM - 02.00PM</span></div>
+									<div class="event_info"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Baptist High School Marke</span></div>
+									<div class="event_text">
+										<p>Policy analysts generally agree on a need for reform, but not on which path...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Event -->
+				<div class="col-lg-4 event_col">
+					<div class="event event_mid">
+						<div class="event_image"><img src="images/miss.png" alt=""></div>
+						<div class="event_body d-flex flex-row align-items-start justify-content-start">
+							<div class="event_date">
+								<div class="d-flex flex-column align-items-center justify-content-center trans_200">
+									<div class="event_day trans_200">28</div>
+									<div class="event_month trans_200">Aug</div>
+								</div>
+							</div>
+							<div class="event_content">
+								<div class="event_title"><a href="miss.html">Mr. and Miss BOSAM 2018</a></div>
+								<div class="event_info_container">
+									<div class="event_info"><i class="fa fa-clock-o" aria-hidden="true"></i><span>10.00AM - 02.00PM</span></div>
+									<div class="event_info"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Baptist High School, Marke</span></div>
+									<div class="event_text">
+										<p>This Consumer Action News issue covers topics now being debated before...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Team -->
+
+	<div class="team">
+		<div class="team_background parallax-window" data-parallax="scroll" data-image-src="images/team_background.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<h2 class="section_title">MEET OUR EXECUTIVE COMMITTEE</h2>
+						<div class="section_subtitle"><p></p></div>
+					</div>
+				</div>
+			</div>
+			<div class="row team_row">
+				
+				<!-- Team Item -->
+				<div class="col-lg-3 col-md-6 team_col">
+					<div class="team_item">
+						<div class="team_image"><img src="images/geo.jpg" alt=""></div>
+						<div class="team_body">
+							<div class="team_title"><a href="https://facebook.com">Peter J. Mada</a></div>
+							<div class="team_subtitle">President</div>
+							<div class="social_list">
+								<ul>
+									<li><a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="mailto:"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Team Item -->
+				<div class="col-lg-3 col-md-6 team_col">
+					<div class="team_item">
+						<div class="team_image"><img src="images/geo.jpg" alt=""></div>
+						<div class="team_body">
+							<div class="team_title"><a href="https://facebook.com">George Maigari</a></div>
+							<div class="team_subtitle">Secretary General</div>
+							<div class="social_list">
+								<ul>
+									<li><a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="mailto:"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Team Item -->
+				<div class="col-lg-3 col-md-6 team_col">
+					<div class="team_item">
+						<div class="team_image"><img src="images/lois.jpg" alt=""></div>
+						<div class="team_body">
+							<div class="team_title"><a href="https://twitter.com/techhajiya">Thomas Lois</a></div>
+							<div class="team_subtitle">Treasurer</div>
+							<div class="social_list">
+								<ul>
+									<li><a href="https://facebook.com/Lois.idzi5"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com/techhajiya"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="mailto:lois.idzi@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Team Item -->
+				<div class="col-lg-3 col-md-6 team_col">
+					<div class="team_item">
+						<div class="team_image"><img src="images/wan.jpg" alt=""></div>
+						<div class="team_body">
+							<div class="team_title"><a href="https://facebook.com">Raymond Wanche</a></div>
+							<div class="team_subtitle">Financial Secretary</div>
+							<div class="social_list">
+								<ul>
+									<li><a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="mailto:"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Latest News -->
+
+	<div class="news">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<marquee><h2 class="section_title">Latest News</h2></marquee>
+						<div class="section_subtitle"><p></p></div>
+					</div>
+				</div>
+			</div>
+			<div class="row news_row">
+				<div class="col-lg-7 news_col">
+					
+					<!-- News Post Large -->
+					<div class="news_post_large_container">
+						<div class="news_post_large">
+							<div class="news_post_image"><img src="images/p1.jpg" alt=""></div>
+							<div class="news_post_large_title"><a href="index.php">Here’s What You Need to Know About BOSAM</a></div>
+							<div class="news_post_meta">
+								<ul>
+									<li><a href="#">admin</a></li>
+									<li><a href="#">July 11, 2018</a></li>
+								</ul>
+							</div>
+							<div class="news_post_text">
+								<p>Policy analysts generally agree on a need for reform, but not on which path policymakers should take. Can America learn anything from other nations...</p>
+							</div>
+							<div class="news_post_link"><a href="index.php">read more</a></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-5 news_col">
+					<div class="news_posts_small">
+
+						<!-- News Posts Small -->
+						<div class="news_post_small">
+							<div class="news_post_small_title"><a href="index.php">Baptist High School To Renovate School</a></div>
+							<div class="news_post_meta">
+								<ul>
+									<li><a href="#">admin</a></li>
+									<li><a href="#">July 30, 2018</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- News Posts Small -->
+						<div class="news_post_small">
+							<div class="news_post_small_title"><a href="index.php">BOSAM Election Coming Up 2019</a></div>
+							<div class="news_post_meta">
+								<ul>
+									<li><a href="#">admin</a></li>
+									<li><a href="#">August 20, 2018</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- News Posts Small -->
+						<div class="news_post_small">
+							<div class="news_post_small_title"><a href="index.php">Forms Available For Next Year's Election</a></div>
+							<div class="news_post_meta">
+								<ul>
+									<li><a href="#">admin</a></li>
+									<li><a href="#">August 5, 2018</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- News Posts Small -->
+						<div class="news_post_small">
+							<div class="news_post_small_title"><a href="index.php">Mr. and Miss BOSAM 2018</a></div>
+							<div class="news_post_meta">
+								<ul>
+									<li><a href="#">admin</a></li>
+									<li><a href="#">July 11, 2018</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_background" style="background-image:url(images/footer_background.png)"></div>
+		<div class="container">
+		
+
+			<div class="row copyright_row">
+				<div class="col">
+					<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+						<div class="cr_text">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> &nbsp | This website is designed with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://twitter.com/techhajiya" target="_blank">TechHajiya</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

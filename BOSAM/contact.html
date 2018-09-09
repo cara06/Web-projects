@@ -4,7 +4,7 @@
 <title>Contact</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Unicat project">
+<meta name="description" content="Baptist Old Students Association, Marke">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -38,7 +38,7 @@
 									</li>
 								</ul>
 								<div class="top_bar_login ml-auto">
-									<div class="login_button"><a href="#">Register or Login</a></div>
+									<div class="login_button"><a href="Join.php">Join us</a></div>
 								</div>
 							</div>
 						</div>
@@ -54,7 +54,7 @@
 					<div class="col">
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container">
-								<a href="#">
+								<a href="index.html">
 									<div class="logo_text">BOS<span>AM</span></div>
 								</a>
 							</div>
@@ -64,14 +64,14 @@
 									<li><a href="about.html">About</a></li>
 									<li><a href="courses.html">Stories</a></li>
 									<li><a href="blog.html">News</a></li>
-									<li><a href="#">Page</a></li>
+									<li><a href="members.php">Members</a></li>
 									<li class="active"><a href="contact.html">Contact</a></li>
 								</ul>
 								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
 
 								<!-- Hamburger -->
 
-								<div class="shopping_cart"><i class="fa fa-user" aria-hidden="true"></i></div>
+								<div class="shopping_cart"><a href="join.php"><i class="fa fa-user" aria-hidden="true"></a></i></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>
@@ -120,7 +120,7 @@
 				<li class="menu_mm"><a href="about.html">About</a></li>
 				<li class="menu_mm"><a href="courses.html">Stories</a></li>
 				<li class="menu_mm"><a href="blog.html">News</a></li>
-				<li class="menu_mm"><a href="#">Page</a></li>
+				<li class="menu_mm"><a href="members.php">Members</a></li>
 				<li class="menu_mm"><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
@@ -158,7 +158,10 @@
 			<div class="map">
 				<div id="google_map" class="google_map">
 					<div class="map_container">
-						<div id="map"></div>
+						<div id="map">
+						<!-- Embedded Google Map -->
+          <iframe width="100%" height="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3942.4267159013534!2d8.005514370200721!3d8.839803260727033!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1522458524898"></iframe>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -174,22 +177,21 @@
 					<!-- Contact Form -->
 					<div class="col-lg-6">
 						<div class="contact_form">
-							<div class="contact_info_title">Contact Form</div>
+							<div class="contact_info_title">Send a message</div>
 							<form action="#" class="comment_form">
 								<div>
-									<div class="form_title">Name</div>
-									<input type="text" class="comment_input" required="required">
+									<input type="text" class="comment_input" placeholder="Your name" required="required">
 								</div>
 								<div>
-									<div class="form_title">Email</div>
-									<input type="text" class="comment_input" required="required">
+									
+									<input type="text" class="comment_input" placeholder="Your email" required="required">
 								</div>
 								<div>
-									<div class="form_title">Message</div>
-									<textarea class="comment_input comment_textarea" required="required"></textarea>
+									
+									<textarea class="comment_input comment_textarea" placeholder="Message" required="required"></textarea>
 								</div>
 								<div>
-									<button type="submit" class="comment_button trans_200">submit now</button>
+									<button type="submit" class="comment_button trans_200">SEND A MESSAGE</button>
 								</div>
 							</form>
 						</div>
@@ -203,43 +205,14 @@
 								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a distribution of letters.</p>
 							</div>
 							<div class="contact_info_location">
-								<div class="contact_info_location_title">Baptist High School, Marke</div>
+								<div class="contact_info_location_title">Baptist Old Students' Association, Marke Secretariat</div>
 								<ul class="location_list">
 									<li>Along Keffi-Akwanga Road, Nasarawa state</li>
-									<li>08100000000</li>
-									<li>bosam2013@gmail.com</li>
+									<li>Tel: 08100000000</li>
+									<li>E-mail:bosam2013@gmail.com</li>
 								</ul>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Newsletter -->
-
-	<div class="newsletter">
-		<div class="newsletter_background" style="background-image:url(images/newsletter_background.jpg)"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
-
-						<!-- Newsletter Content -->
-						<div class="newsletter_content text-lg-left text-center">
-							<div class="newsletter_title">sign up for news and offers</div>
-							<div class="newsletter_subtitle">Subcribe to lastest smartphones news & great deals we offer</div>
-						</div>
-
-						<!-- Newsletter Form -->
-						<div class="newsletter_form_container ml-lg-auto">
-							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
-								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
-								<button type="submit" class="newsletter_button">subscribe</button>
-							</form>
-						</div>
-
 					</div>
 				</div>
 			</div>
@@ -251,72 +224,13 @@
 	<footer class="footer">
 		<div class="footer_background" style="background-image:url(images/footer_background.png)"></div>
 		<div class="container">
-			<div class="row footer_row">
-				<div class="col">
-					<div class="footer_content">
-						<div class="row">
-
-							<div class="col-lg-3 footer_col">
-					
-								<!-- Footer About -->
-								<div class="footer_section footer_about">
-									<div class="footer_logo_container">
-										<a href="#">
-											<div class="footer_logo_text">BOS<span>AM</span></div>
-										</a>
-									</div>
-									<div class="footer_about_text">
-										<p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
-									</div>
-									<div class="footer_social">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-								</div>
-								
-							</div>
-
-							<div class="col-lg-3 footer_col">
-					
-								<!-- Footer Contact -->
-								<div class="footer_section footer_contact">
-									<div class="footer_title">Contact Us</div>
-									<div class="footer_contact_info">
-									<ul>
-											<li>Email: Bosam2013@gmail.com</li>
-											<li>Phone:  08131143315</li>
-											<li>Baptist High School, Marke</li>
-										</ul>
-									</div>
-								</div>
-								
-							</div>
-
-							<div class="col-lg-3 footer_col">
-								
-							</div>
-
-							<div class="col-lg-3 footer_col clearfix">
-					
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
+		
 
 			<div class="row copyright_row">
 				<div class="col">
 					<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
-						<div class="cr_text">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> &nbsp | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://twitter.com/techhajiya" target="_blank">TechHajiya</a></div>
-					</div>
-							
-						</div>
+						<div class="cr_text" style="text-align:center">
+&copy;<script>document.write(new Date().getFullYear());</script> &nbsp Baptist Old Students' Association Official Website <br>  Designed with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://twitter.com/techhajiya" target="_blank">TechHajiya</a></div>
 					</div>
 				</div>
 			</div>
