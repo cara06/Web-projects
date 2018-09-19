@@ -1506,15 +1506,15 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 14rem;
-	width: 13rem;
-	border-radius: 50%;
+	height: 17rem;
+	width: 17rem;
+	border-radius: 5%;
 	margin: .9rem 0 0 0;
 	float: left;
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 16rem;
+	padding-left: 19rem;
 }
 
 .about-content {
@@ -1580,8 +1580,8 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+		height: 8.8rem;
+		width: 8.8rem;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
@@ -1606,8 +1606,8 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 7.6rem;
+		width: 7.6rem;
 		float: none;
 		display: inline-block;
 	}
@@ -2255,7 +2255,7 @@ header .logo a {
  */
 #contact {
 	background: #151515;
-	padding-top: 12rem;
+	padding-top: 7rem;
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
